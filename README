@@ -1,0 +1,22 @@
+Compatible Python 3.X only
+
+Proxy Server for the following sites:
+
+DansTonChat -> http://danstonchat.com
+VieDeMerde -> http://viedemerde.fr
+SeCoucherMoinsBete -> http://secouchermoinsbete.fr
+
+Implements rfc-sap, for more informations about error code and other
+consult this link: https://github.com/johann-lecocq/rfc-sap.git
+
+External library:
+
+flask
+https://github.com/johann-lecocq/crawler-py.git
+cherrypy
+paste
+
+run pip3 -r requirements.txt to install librairies
+
+The default port of application is 8007.
+You can change configuration in run.py file.

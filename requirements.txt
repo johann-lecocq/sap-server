@@ -1,0 +1,4 @@
+flask
+git+https://github.com/johann-lecocq/crawler-py.git
+cherrypy
+paste
