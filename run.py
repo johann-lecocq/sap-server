@@ -1,6 +1,6 @@
 __author__ = "Johann Lecocq(johann-lecocq.fr)"
 __license__ = "GNU GENERAL PUBLIC LICENSE version 2"
-__version__ = "1.0"
+__version__ = "1.1"
 
 import cherrypy
 from paste.translogger import TransLogger
