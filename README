@@ -9,6 +9,7 @@ SeCoucherMoinsBete -> http://secouchermoinsbete.fr
 Implements rfc-sap, for more informations about error code and other
 consult this link: https://github.com/johann-lecocq/rfc-sap.git
 
+
 External library:
 
 flask
@@ -16,7 +17,19 @@ https://github.com/johann-lecocq/crawler-py.git
 cherrypy
 paste
 
-run pip3 -r requirements.txt to install librairies
+run "pip install -r requirements.txt" to install librairies
 
 The default port of application is 8007.
 You can change configuration in run.py file.
+
+
+For developement mode, you can run "python run.py"
+
+
+For production mode you can run with Gunicorn:
+
+run "pip install gunicorn" to install gunicorn
+
+and run
+
+/usr/bin/gunicorn  -D --bind 127.0.0.1:8007 --pid $PATH_PID/sapserver.pid --user $USER --group $GROUP run:app
