@@ -42,10 +42,16 @@ def pages(crawler,numero):
     resultat=crawler.page(numero)
     return CrawlerReponse(resultat.data,code=resultat.code)
 
-def random(crawler):
+def random_one(crawler):
     """get a random article"""
     crawler=select_crawler(crawler)
     resultat=crawler.article_random()
+    return CrawlerReponse(resultat.data,code=resultat.code)
+
+def random(crawler):
+    """get a list of random article"""
+    crawler=select_crawler(crawler)
+    resultat=crawler.page_random()
     return CrawlerReponse(resultat.data,code=resultat.code)
 
 def archives_mois(crawler,annee,mois):
