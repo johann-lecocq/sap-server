@@ -58,3 +58,7 @@ target/
 
 #ide
 *.kdev4
+
+\.venv/
+
+\.vscode/

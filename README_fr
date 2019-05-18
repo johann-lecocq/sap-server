@@ -6,7 +6,7 @@ DansTonChat -> http://danstonchat.com
 VieDeMerde -> http://viedemerde.fr
 SeCoucherMoinsBete -> http://secouchermoinsbete.fr
 
-L'application respecte la rfc-sap, pour plus d'informations sur les codes d'erreur
+L'application implémente un sous ensemble de la rfc-sap, pour plus d'informations sur les codes d'erreur
 et autre, consulter ce lien: https://github.com/johann-lecocq/rfc-sap.git
 
 
